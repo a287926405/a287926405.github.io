@@ -9,11 +9,17 @@ macbook中vmware装了个openwrt旁路由，桥接到本机的无线网卡，经
 
 
 #mac OS开启路由转发功能(macbook 操作https://github.com/Miss-you/completedblog/blob/master/mac_os开启路由转发功能.md)
+
 > 主要是我有时候需要用mac进行ps4直播转发，需要mac开启路由功能
+
 环境：MAC OS 10.11
+
 机器：macbook pro
+
 ##配置方法
+
 基本步骤跟linux类似，不过变量有些变化
+
 ```
 sysctl -w net.inet.ip.forwarding=1
 ```
