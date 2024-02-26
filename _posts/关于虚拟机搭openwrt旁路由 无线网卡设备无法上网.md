@@ -1,3 +1,9 @@
+---
+layout: post
+title: 关于虚拟机搭openwrt旁路由 无线网卡设备无法上网
+date: 2024-02-26
+tags: openwrt   
+---
 macbook中vmware装了个openwrt旁路由，桥接到本机的无线网卡，经测试发现：
 
 1、宿主机改网关后，可通过op上网和科学
