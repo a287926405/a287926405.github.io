@@ -1,11 +1,20 @@
 macbook中vmware装了个openwrt旁路由，桥接到本机的无线网卡，经测试发现：
+
 1、宿主机改网关后，可通过op上网和科学
+
 2、其他无线设备改网关不能上网，但是可以ping通op，上op的网页
+
 3、op终端可以ping通其他无线设备
+
 解决：
+
 1、宿主机开启路由转发，ip forward=1。
+
 2、macbook 操作https://github.com/Miss-you/completedblog/blob/master/mac_os开启路由转发功能.md
+
 3、提示权限不够时，用 sudo su 提升至管理员权限。
+
+
 
 
 #mac OS开启路由转发功能(macbook 操作https://github.com/Miss-you/completedblog/blob/master/mac_os开启路由转发功能.md)
